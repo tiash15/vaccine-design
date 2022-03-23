@@ -30,6 +30,7 @@ def filterAntigens(seqList, THRESHOLD = '0.4', ORGANISM = 'virus'):
     #store probable antigenic seq in this list
     filteredAntigens = []
 
+    #loop through the seq list and check antigenicity for each
     for seq in seqList:
         try:
             #locate the textarea for entering the seq
